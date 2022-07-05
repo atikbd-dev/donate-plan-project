@@ -1,4 +1,90 @@
-body{
+body {
     font-family: 'Gentium Book Plus', serif;
-font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.background-image {
+    background-image: url('images/donation6.jpg');
+    text-align: center;
+    background-position: center;
+    height: 500px;
+    background-repeat: no-repeat;
+    color: white;
+
+}
+
+span {
+    color: red;
+}
+
+.link-button {
+    text-decoration: none;
+    text-align: center;
+    background-image: linear-gradient(rgb(161, 35, 4), rgb(195, 98, 24));
+    border-radius: 2px;
+    padding: 10px 20px;
+    color: aliceblue;
+}
+
+.middle {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+
+.flex-container>div:hover {
+background-color: rgb(191, 191, 191);
+    border-style:solid;
+    border-color: rgb(96, 96, 103);
+    padding: 0px 20px;
+    border-radius: 5px;
+    
+  
+}
+#other{
+    text-align: center;
+}
+.other{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.flex-container-icons{
+    
+    display: flex;
+    justify-content: space-evenly;
+   
+    
+}
+.flex-container-icons> div{
+    border-style: solid;
+        border-color: rgb(96, 96, 103);
+        padding: 20px 90px;
+        border-radius: 5px;
+        padding-left: 30px;
+       
+}
+.food{
+    background-color:plum;
+}
+.shelter{
+    background-color: aquamarine;
+}
+.frame{
+    background-color: rgb(242, 183, 160);
+}
+footer{
+    background-color: black;
+    text-align: center;
+}
+footer>h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
