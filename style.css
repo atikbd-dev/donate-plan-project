@@ -7,12 +7,13 @@ body {
 }
 
 .background-image {
-    background-image: url('images/donation6.jpg');
+    background-image: url('images/donate\ child.jpg');
     text-align: center;
     background-position: center;
-    height: 500px;
+    height: 800px;
+    margin-left: 20px;
     background-repeat: no-repeat;
-    color: white;
+    color: rgb(255, 255, 255);
 
 }
 
@@ -57,6 +58,11 @@ span {
 .other {
     text-align: center;
     margin-top: 80px;
+}
+
+.donate-button {
+    text-align: center;
+    margin-top: 20px;
 }
 
 .flex-container-icons {
@@ -109,6 +115,7 @@ span {
 
 }
 
+
 .button {
     text-decoration: none;
     background-image: linear-gradient(rgb(161, 35, 4), rgb(195, 98, 24));
@@ -146,7 +153,7 @@ span {
 .human {
     padding-left: 200px;
     text-align: left;
-    
+
 }
 
 .depend {
@@ -166,32 +173,56 @@ span {
     padding-left: 5px;
     padding-right: 5px;
 }
-.center{
+
+.center {
     text-align: center;
     margin-top: 200px;
 }
-.text{
+
+.text {
     font-size: 35px;
 }
-span{
+
+span {
     color: aqua;
 }
-.from{
-    text-align: center;
 
-}
+.container {
+    margin-left: 560px;
 
-.border {
-    margin-left: 455px;
-    width: 600px;
     height: 100px;
-    border: 1px solid rgb(123, 123, 137);
-    background-color: blanchedalmond;
+    width: 400px;
+    position: relative;
+    border: 1px solid rgb(173, 137, 90);
+    background-color: burlywood;
     border-radius: 5px;
-    padding-top: 60px;
 }
+
+
+.vertical-center {
+    padding-left: 50px;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+
+}
+
+
+
+
+
+.hr-line {
+    border-bottom: 2px solid rgb(110, 97, 97);
+    width: 600px;
+    margin: auto auto;
+}
+
+.hr-line:hover {
+    border-color: cadetblue;
+}
+
 footer {
-    background-color: black;
+    background-color: slategrey;
     text-align: center;
 }
 
