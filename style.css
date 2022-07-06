@@ -206,6 +206,37 @@ span {
     top: 40%;
 
 }
+.donate-history{
+    text-align: center;
+    margin-top: 200px;
+    
+}
+.Money-history{
+    text-align: center;
+    border:  2px solid rgb(242, 183, 160);
+    width: 800px;
+    background-color: bisque;
+    margin-left: 355px;
+    border-radius: 3px;
+   
+   
+}
+.total{
+    border: solid 2px  rgb(242, 183, 160);
+}
+.today{
+    border: solid rgb(242, 183, 160);
+}
+.donate{
+    font-size: 70px;
+    color: red;
+}
+.today-caunt{
+    color: rgb(16, 107, 45);
+}
+.total-caunt{
+    color: rgb(27, 137, 247);
+}
 
 
 
